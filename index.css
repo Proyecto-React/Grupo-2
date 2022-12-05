@@ -1,0 +1,42 @@
+*{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height:auto;
+}
+
+header{
+    width: 90%;
+    height:auto;
+    margin-left: 5%;
+    background-color: rgb(242, 212, 172);
+    padding: 1rem;
+}
+
+.menu{
+    border: 1px solid black;
+    width: 100%;
+    margin: auto;
+}
+
+.containerLogo{
+    background-color: red; 
+    height:5rem;
+}
+
+main{
+    width:90%;
+    height: 30rem;
+    margin:5rem;
+    background-color:rgb(91, 72, 63);
+}
+
+footer{
+    height: 5rem;
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.73);
+}
