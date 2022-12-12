@@ -1,0 +1,88 @@
+.container{
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+    background: none;
+    border: 2px solid #ffa260;
+    font-family:'Lora', serif;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    width: 20%;
+    margin-left: 25%;
+    color:#ffa260
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 1px 11px 19px -2px rgba(255,220,96,0.67);
+    -webkit-box-shadow: 1px 11px 19px -2px rgba(255,220,96,0.67);
+    -moz-box-shadow: 1px 11px 19px -2px rgba(255,220,96,0.67);
+    transform: translateY(-0.25em);
+    color: #ffa260;
+}
+
+/* Boton Flotante */
+.btn-flotante {
+	border-radius:50%; 
+	letter-spacing: 2px; 
+    text-transform: uppercase;
+	background-color: #f1edef; 
+	padding: 8px 8px; 
+	position: fixed;
+	bottom: 115px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+	
+}
+.btn-flotante:hover {
+	background-color:  black;
+    color: white; 
+	transform: translateY(-7px);
+}
+
+a {
+	text-decoration: none;
+	color: #a560ff;
+}
+
+a:hover{
+	color: #a560ff ;
+}
+
+.container {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.social-media {
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+.social-media .ctn-icon:hover a,
+.social-media .ctn-icon:focus a,
+.social-media .ctn-icon:active a {
+	transform: rotate3d(0, 1, 0, 1turn);
+    border: 4px solid #a560ff;
+}
+
+.social-media .ctn-icon a {
+	background-color: #000000;
+	border-radius: 100px;
+	color: #ffffff;
+	display: block;
+	height: 60px;
+	margin: 20px;
+	text-align: center;
+	transition: transform 0.5s ease;
+	width: 60px;
+    line-height: 60px;
+}
