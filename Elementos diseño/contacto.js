@@ -2,11 +2,9 @@ function guardarDato() {
     const nombre = document.getElementById("nombre").value;
     const movil = document.getElementById("movil").value;
     const email = document.getElementById("email").value;
-    const avatarURL = `http://api.adorable.io/avatars/80/${email}.png`;
     const datos = {
         'movil': movil,
         'email': email,
-        'avatarURL': avatarURL
     };
 
     localStorage.setItem(nombre, JSON.stringify(datos));
@@ -50,6 +48,7 @@ function actualizarDatos() {
                 </div>
                 <div class="col-xs-9">
                     <p><b>${key}</b></p>
+
                     <a href="tel:+34${datos.movil}"><p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> ${datos.movil}</p></a>
                     <a href="mailto:${datos.email}"><p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ${datos.email}</p></a>
                 </div>

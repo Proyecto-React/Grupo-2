@@ -1,5 +1,21 @@
+h3{
+    font-size:30px;
+    font-family: 'Handlee', cursive;
+    font-family: 'Playfair Display', serif;
+    letter-spacing:2px;
+    text-align: center;
+    padding:1rem;
+}
+
 #contenedor {
-    width: 420px;
+    width: 40%;
+    background-color: rgba(161, 252, 237, 0.6);
+}
+
+.input-group i {
+    width:30px;
+    height:30px;
+    margin: 1rem;
 }
 
 #gbotones {
@@ -12,4 +28,10 @@
 
 .badge-info {
     background-color: #5bc0de;
+}
+
+.btn i{
+    width:10px;
+    height:10px;
+    margin: 0.5rem;
 }
