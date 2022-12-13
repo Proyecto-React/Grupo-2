@@ -1,11 +1,14 @@
-
 import './App.css';
+
+import {BrowserRouter, Route} from "react-router-dom";
+
+import Registro from './Paginas/Registro';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <BrowserRouter>
+        <Route path="/alta" component={Registro} exact />
+    </BrowserRouter>
   );
 }
 
