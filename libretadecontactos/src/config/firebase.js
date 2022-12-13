@@ -27,4 +27,9 @@ firebase.auth=firebase.auth();
 firebase.db=firebase.firestore();
 console.log("Conexion Firebase",firebase.database())
 
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+export const db = getFirestore(app)
+
 export default firebase;
