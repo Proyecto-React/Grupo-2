@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(fondo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Nunito:wght@300&display=swap'); 
+}
